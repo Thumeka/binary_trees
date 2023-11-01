@@ -52,5 +52,6 @@ binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);
 binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);
 int the_root(const binary_tree_t *f, const binary_tree_t *s);
 unsigned int bi_depth(const binary_tree_t *tree);
+binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 
 #endif /* _BINARY_TREES_H_ */
