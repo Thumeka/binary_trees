@@ -63,5 +63,5 @@ unsigned int tree_nodes(const binary_tree_t *root);
 int complete(const binary_tree_t *tree, int index, int nodes);
 int binary_tree_is_bst(const binary_tree_t *tree);
 int is_BST_Util(const binary_tree_t *tree, int min, int max);
-
+bst_t *bst_insert(bst_t **tree, int value);
 #endif /* _BINARY_TREES_H_ */
