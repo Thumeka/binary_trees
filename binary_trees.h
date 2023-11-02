@@ -55,5 +55,8 @@ unsigned int bi_depth(const binary_tree_t *tree);
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 void levels(const binary_tree_t *root, int level, void(*func)(int));
+int binary_tree_is_complete(const binary_tree_t *tree);
+unsigned int tree_nodes(const binary_tree_t *root);
+int complete(const binary_tree_t *tree, int index, int nodes);
 
 #endif /* _BINARY_TREES_H_ */
