@@ -64,4 +64,5 @@ int complete(const binary_tree_t *tree, int index, int nodes);
 int binary_tree_is_bst(const binary_tree_t *tree);
 int is_BST_Util(const binary_tree_t *tree, int min, int max);
 bst_t *bst_insert(bst_t **tree, int value);
+bst_t *array_to_bst(int *array, size_t size);
 #endif /* _BINARY_TREES_H_ */
